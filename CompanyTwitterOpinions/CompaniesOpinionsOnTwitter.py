@@ -131,7 +131,7 @@ def main():
         DictData = {"User ID": [], "Created At": [], "Tweet ID": [], "Tweet Text": []}
         VarPullList = PullWords()
         VarPullCount = PullCount()
-        #Loop through wordlist and pulls tweets
+        #loop through wordlist and pulls tweets
         df = Pull_Tweets(VarPullList, VarPullCount, DictData)
         Update_Excel(df, file_path)
 
