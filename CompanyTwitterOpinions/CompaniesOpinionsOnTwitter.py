@@ -3,14 +3,14 @@ import pandas as pd
 from afinn import Afinn
 import matplotlib.pyplot as plt
 
-#these api no work cause not paid verison
-bearer_token = "AAAAAAAAAAAAAAAAAAAAACUuuwEAAAAAankO%2FZuz8C8krpMLga0cRyu8gWI%3D6AC3J7k5yd6kgqMCo5U3GoS27Q3UU8htRXoJXbb5z4L6nzj7NI"
-consumer_key = "ymVyLlLQXP3IP1wrfF8CMhMhB"
-consumer_secret = "ds2CNoOxL5rzptxXJgHdFR7fSi9MpnkhKdlP9dVXYpt6Vxk4Yq"
-access_token = "1805661374090985473-mKtH3QAnqYS7F4aa4K0XwxJMCai1is"
-access_token_secret = "TC755kc9CxydtTmav41AQvm1kU1ZIZkr4bFniy7ZGffIR"
-#client id UXVFSDY4WUQ4RUdlaldsaFRTMmQ6MTpjaQ
-#client secret 6OrgjzLg9_2GLZ-NRRE52Dr09qBNge4AyOrghRAfj6gYVeMwNs
+#these api no work cause not paid verison of twitter api developer
+bearer_token = "apikey"
+consumer_key = "apikey"
+consumer_secret = "apikey"
+access_token = "apikey"
+access_token_secret = "apikey"
+#client id "apikey"
+#client secret "apikey"
 
 #Auth
 Client = tweepy.Client(
